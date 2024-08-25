@@ -3,3 +3,9 @@ docker run -p 9092:9092 `
 >>     -e "KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://192.168.1.4:9092" `
 >>     -e "KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1" `
 >>     confluentinc/cp-kafka
+
+
+to start:
+node .\producer.js    
+
+node .\consumer.js user-1
